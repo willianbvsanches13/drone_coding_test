@@ -1,0 +1,19 @@
+{
+  "name": "velozient_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "es2017",
+  "scripts": {
+    "dev": "tsc -w ./index.ts --outDir ./dist",
+    "start:dev": "node ./dist/index.js",
+    "start": "tsc ./index.ts --outDir ./dist && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
